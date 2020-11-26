@@ -30,5 +30,20 @@
 }
 // Desktop
 @media ( min-width: 1900px) {
+    .container {
+        width: 100vw !important;
+    }
+
+    .tillbaka {
+        width: 8vw !important;
+        height: 2.5vw !important;
+        font-size: 20pt;
+    }
+
+    .centrerade {
+        grid-template-rows: 15fr 1fr !important;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     
 }
