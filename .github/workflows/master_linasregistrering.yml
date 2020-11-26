@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'linasregistrering'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_144881d6fb3d441b8f1ddd2536d2c576 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cba083d5e5034e4f8885305d2663a6f5 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
