@@ -12,14 +12,13 @@
 .linje {
     height: 2px;
     background-color: rgb(248, 152, 168);
-
-
+    margin-bottom: 1rem;
 }
 
-// form > hr {
-//     border: 2px solid rgb(248, 152, 168);
-//     background-color:rgb(248, 152, 168);
-// }
+.bottenspace {
+    margin-bottom: 2rem;
+}
+
 
 .linktext {
     color: rgb(233, 108, 129);
@@ -61,7 +60,7 @@
 .centrerade {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 19fr 1fr;
+    grid-template-rows: 27fr 1fr;
     justify-items: center;
     margin: auto;  
 }

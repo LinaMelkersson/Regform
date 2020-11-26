@@ -1,6 +1,32 @@
 // Ipad
 @media ( min-width: 758px) {
+    .row {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .tillbaka {
+        width: 10vw;
+        height: 6vw !important;
+        font-size: 20pt;
+    }
 
+    .centrerade {
+        grid-template-rows: 15fr 1fr !important;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .tacktack {
+        width: 70vw;
+        margin: auto;
+        height: 40vw;
+    }
+    
+    .tackruta {
+        text-align: center;
+        padding: 2rem;
+    }
 }
 // Desktop
 @media ( min-width: 1900px) {
